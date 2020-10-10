@@ -6,6 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* ------ ELEMENT TAGS ----- */
 h1 {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -27,13 +28,7 @@ footer {
     padding: 25px 0px 0px 0px;
 }
 
-.profile-picture {
-    max-width: 400px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
+/* ------ ALL PAGES ------ */
 .body-container {
     background-color: #292b2c;
     padding: 30px;
@@ -42,6 +37,12 @@ footer {
     border-radius: 15px;
 }
 
+/* footer */
+.footer-copyright {
+    margin-top: 40px;
+}
+
+/* footer links */
 .contact-link {
     color: #f7f7f7;
 }
@@ -50,10 +51,16 @@ footer {
     color: grey;
 }
 
-.footer-copyright {
-    margin-top: 40px;
+
+/* ----- ABOUT PAGE ----- */
+.profile-picture {
+    max-width: 400px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
+/* Assists about page text wrapping */
 @media (max-width: 750px) {
     p {
         display: inline-block;
