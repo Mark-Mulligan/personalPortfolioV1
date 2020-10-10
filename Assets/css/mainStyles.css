@@ -1,0 +1,68 @@
+body {
+    background-image: url('../Images/computer-hd-wallpaper-computer-background-computer-background-computer-science-wallpaper-82781153.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+hr {
+    background-color: #f7f7f7;
+}
+
+footer {
+    background-color: #292b2c;
+    padding: 25px 0px 0px 0px;
+}
+
+.profile-picture {
+    max-width: 400px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.body-container {
+    background-color: #292b2c;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 150px auto;
+    border-radius: 15px;
+}
+
+.contact-link {
+    color: #f7f7f7;
+}
+
+.contact-link:hover {
+    color: grey;
+}
+
+.footer-copyright {
+    margin-top: 40px;
+}
+
+@media (max-width: 750px) {
+    p {
+        display: inline-block;
+    }
+
+    .profile-picture {
+        float: none;
+        width: 100%;
+    }
+}
+
+
